@@ -17,35 +17,30 @@ This project aims to predict the future stock prices of a given company using LS
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required libraries.
 
-bash
-pip install pandas numpy matplotlib scikit-learn tensorflow keras yfinance
+    pip install pandas numpy matplotlib scikit-learn tensorflow keras yfinance
 
 
 ## Usage
 
 1. Clone the repository
 
-bash
-git clone https://github.com/<username>/<repository>.git
+        git clone https://github.com/<username>/<repository>.git
 
 
 2. Navigate to the project directory
 
-bash
-cd <repository>
+        cd <repository>
 
 
 3. Run the script
 
-bash
-python stock_price_prediction.py
+        python stock_price_prediction.py
 
 
 4. Enter the stock name and prediction duration when prompted
 
-bash
-Enter stock name to predict prices: <stock_name>
-Enter number of days to predict stock prices: <duration>
+        Enter stock name to predict prices: <stock_name>
+        Enter number of days to predict stock prices: <duration>
 
 
 5. View the predicted future stock prices graph
